@@ -1,0 +1,17 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "QQNT Material",
+  "slug": "qqnt_material",
+  "description": "出现更多MSpring Theme主题色",
+  "version": "0.1.2",
+  "authors": [
+    {
+      "name": "Anonymouse"
+    }
+  ],
+  "platform": ["win32", "linux", "darwin"],
+  "injects": {
+    "renderer": "./src/renderer.js"
+  }
+}

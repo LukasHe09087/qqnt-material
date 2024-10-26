@@ -1,0 +1,62 @@
+.sidebar-nav {
+  transition: all 0.2s ease;
+  background-color: var(--md-sys-color-secondary) !important;
+  & * {
+    transition: all 0.2s ease;
+    --icon_primary: var(--md-sys-color-on-secondary);
+  }
+  & .nav-item .tab-item-mask.is-active {
+    background-color: var(--md-sys-color-tertiary-container) !important;
+    opacity: 0.8 !important;
+  }
+}
+.tab-container {
+  background: unset !important;
+}
+.qqnt-material-wallpaper {
+  transition: all 0.2s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: var(--md-sys-color-primary-container);
+  opacity: 0.3;
+}
+html {
+  background: var(--md-sys-color-background) !important;
+  /* --theme-color */
+  /* --el-color-theme: var(--md-sys-color-primary) !important; */
+}
+#app {
+  /* 设置页面 */
+  .setting-layout {
+    .setting-tab {
+      transition: all 0.2s ease;
+      background-color: var(--md-sys-color-secondary-container) !important;
+    }
+    .setting-main {
+      background: unset;
+    }
+  }
+  .container {
+    .nav-bar-container {
+      transition: all 0.2s ease;
+      background-color: var(--md-sys-color-secondary-container) !important;
+    }
+    /* 文件管理器 */
+    .file-manager-main {
+      background: unset;
+      .file-list-normal-sort-title {
+        background: var(--md-sys-color-primary-container) !important;
+      }
+      .loadmore-placeholder {
+        background: unset;
+      }
+    }
+  }
+}
+@media (prefers-color-scheme: dark) {
+
+}
