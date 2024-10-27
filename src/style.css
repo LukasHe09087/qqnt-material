@@ -1,3 +1,4 @@
+/* 左侧侧栏 */
 .sidebar-nav {
   transition: all 0.2s ease;
   background-color: var(--md-sys-color-secondary) !important;
@@ -12,6 +13,10 @@
 }
 .tab-container {
   background: unset !important;
+}
+/* 聊天列表 */
+.recent-contact {
+  background-color: var(--md-sys-color-surface-variant) !important;
 }
 .qqnt-material-wallpaper {
   transition: all 0.2s ease;
@@ -58,5 +63,4 @@ html {
   }
 }
 @media (prefers-color-scheme: dark) {
-
 }
